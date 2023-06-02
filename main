@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Fungible Gifs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Exo', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #3d336f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin: 20px auto;
+    }
+
+    .mission-vision {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #fb5ab2;
+    }
+
+    .mission-vision h2 {
+      font-weight: 700;
+    }
+
+    .mission-vision p {
+      font-size: 18px;
+    }
+
+    .gif-slots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px;
+    }
+
+    .gif-slot {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      background-color: #48e6e5;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .logos {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logos img {
+      width: 80px;
+      margin: 10px;
+    }
+
+    .contact-form {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .twitter-feed {
+      text-align: center;
+    }
+
+    .twitter-feed a {
+      color: #f57270;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img class="logo" src="C:\Users\Patrick\Pictures\NFG\nonfungible-gifs\NFG Logo Final.png" alt="Non-Fungible Gifs Logo">
+    <h1>Welcome to Non-Fungible Gifs</h1>
+  </div>
+
+  <div class="mission-vision">
+    <h2>Mission Statement</h2>
+    <p>At Non-Fungible Gifs, we make NFT projects shine, amplifying the utility and talent of Web3. We curate funny and engaging gifs to bring visibility and accessibility to the world of NFTs.</p>
+    <h2>Vision Statement</h2>
+    <p>To be the go-to destination for NFT enthusiasts, artists, and collectors. We envision a future where Non-Fungible Gifs expands the reach and accessibility of NFTs, promoting innovation and diverse talents within the Web3 landscape.</p>
+  </div>
+
+  <div class="gif-slots">
+    <div class="gif-slot" style="background-image: url('https://media.giphy.com/media/JnijKw6zhomxxK3M34/giphy-downsized-large.gif')"></div>
+    <div class="gif-slot" style="background-image: url('https://media.giphy.com/media/IV13slCmK3JfwvOxEf/giphy.gif')"></div>
+    <div class="gif-slot" style="background-image: url('https://media.giphy.com/media/o02BLRHOgKpuNiszZj/giphy.gif')"></div>
+  </div>
+
+  <div class="logos">
+    <img src="C:\Users\Patrick\Pictures\NFG\nonfungible-gifs\GIPHY Logo 300px.png" alt="Giphy Logo">
+    <img src="C:\Users\Patrick\Pictures\NFG\nonfungible-gifs\Tenor_logo.svg.png" alt="Tenor Logo">
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <a href="mailto:info@nonfungiblegifs.com">info@nonfungiblegifs.com</a>
+  </div>
+
+  <div class="twitter-feed">
+    <h2>Twitter Feed</h2>
+    <a href="https://twitter.com/NeatFunguy">@NonFungibleGifs</a>
+  </div>
+</body>
+</html>
